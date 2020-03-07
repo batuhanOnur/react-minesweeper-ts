@@ -1,5 +1,5 @@
 export enum CellValue {
-  none,
+  none, //default value = 0
   one,
   two,
   three,
@@ -8,7 +8,7 @@ export enum CellValue {
   six,
   seven,
   eight,
-  bomb
+  bomb //bomb value default = 9
 }
 
 export enum CellState {
